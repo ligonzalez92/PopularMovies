@@ -52,7 +52,7 @@ public class NetworkUtils {
             }
             else
             {
-                String error = "error";
+                String error = "Error";
             }
         } catch (Exception ex) {
             // Toast.makeText(context, "error  server not responding " + ex.getMessage(), Toast.LENGTH_LONG).show();
