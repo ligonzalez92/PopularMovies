@@ -49,8 +49,10 @@ public class Movie {
         this.popularity = popularity;
     }
 
+    String baseImageUrl = "https://image.tmdb.org/t/p/w185/";
+
     public String getPoster_path() {
-        return poster_path;
+        return baseImageUrl + poster_path;
     }
 
     public void setPoster_path(String poster_path) {
